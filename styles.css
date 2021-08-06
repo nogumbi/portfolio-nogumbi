@@ -24,38 +24,64 @@ section {
     padding: 100px;
 }
 
-.side-tabs li {
-    background-color: #c284a1;
-    color: white;
-    position: relative;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 0 15px;
-    display: flex;
-    list-style: none;
-    cursor: pointer;
-    text-align: center;
     display: block;
-    float: left;
 }
 
+header ul {
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  header ul li {
+    position: relative;
+    list-style: none;
+  }
+  
+  header ul li a {
+    position: relative;
+    display:block;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+  }
+
 img {
-    max-width: 50%;
-    border-radius: 50%;
-    border-style: inset;
-    border: 5px solid var(--pink);
+
+    padding: 0 20px 20px 0;
+    width: relative;
+    height: relative;
+    -webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9));
+}
+
+.side-tabs a {
+    margin: 0px 20px 0 20px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    background-color: #b25782;
+    color: white;
 }
 
 a {
+    margin: 0px 20px 0 20px;
     cursor: pointer;
     border: none;
-    font-size: 16px;
-    padding: 14px 28px;
+    padding: 10px;
     background-color: #b25782;
     color: white;
 }
 
 .about {
     background-color: #c284a1;
-
 }
 
 .about h2 {
@@ -68,15 +94,80 @@ a {
     font-size: 16px;
     font-weight: normal;
 }
+.projects h2 {
+    color: var(--purple);
+    text-transform: uppercase;
+    text-align: center;
+}
 
+.projects p {
+    color: var(--purple);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.projects img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid var(--pink);
+    float: left;
+    padding: 0.5em 0.5em 0.5em
+}
 .skills {
     background-color: var(--purple)
 }
 
+.skills h2 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.skills ul {
+    color: white;
+}
+
+.blog h2 {
+    color: #b25782;
+    text-transform: uppercase;
+    text-align: center;
+}
 .contact {
     background-color: var(--pink)
 }
 
-footer {
-    background-color: white;
+.contact h2 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
 }
+
+.contact form {
+    width: 100;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    height: 250px;
+    background: white;
+}
+
+.contact form input {
+    border: none;
+    border-bottom: 2px solid #b25782;
+    outline: none;
+    height: 40px;
+}
+
+.contact form button {
+        border-radius: 20px;
+        border: 1px solid #b0d9ec;
+        background-color: #b25782;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 30px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+}
+
