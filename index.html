@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Nobantu Gumbi's Portfolio</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8" />
     <meta http-equiv="refresh" content="30">
@@ -21,13 +22,15 @@
     </header>
 
     <section class="title">
-        <div>
-            <h1><b>Hi, my name is Nobantu Gumbi</b></h1>
-            <p>and I am a Software Developer</p>
-            <img src="image.png"><br>
-            <a href="resume.pdf">Resume</a>
-            <a href="http://www.youtube.com/c/thebrandcodes">YouTube Channel</a>
-        </div>
+        <div class="avatar">
+            <img src="image.png" class="img">
+            </div>
+            <div class="banner">
+                <h1><b>Hi, my name is Nobantu Gumbi</b></h1>
+                <p>and I am a Software Developer</p>
+                <a href="resume.pdf">Resume</a>
+                <a href="http://www.youtube.com/c/thebrandcodes">YouTube Channel</a>
+            </div>
     </section>
 
     <section class="about">
@@ -65,16 +68,55 @@
 
     <section class="skills">
         <h2>Skills</h2>
-        <ul>
-            <li>PYTHON</li>
-            <li>JAVA</li>
-            <li>C/C++</li>
-            <li>JAVASCRIPT</li>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>GIT</li>
-            <li>ADOBE SUITE</li>
-        </ul>
+        <ul class="skills-bar-container">
+        <li>
+          <div class="progressbar-title">
+            <h3>PYTHON</h3>
+            <span class="percent" id="html-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="95">
+            <span class="progressbar" id="progress-html"></span>
+          </div>
+        </li>
+        <li>
+          <div class="progressbar-title">
+            <h3>JAVA</h3>
+            <span class="percent" id="css-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="85">
+            <span class="progressbar" id="progress-css"></span>
+          </div>
+        </li>
+        <li>
+          <div class="progressbar-title">
+            <h3>JAVASCRIPT</h3>
+            <span class="percent" id="javascript-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="80">
+            <span class="progressbar" id="progress-javascript"></span>
+          </div>
+        </li>
+        <li>
+          <div class="progressbar-title">
+            <h3>C/C++</h3>
+            <span class="percent" id="php-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="65">
+            <span class="progressbar" id="progress-php"></span>
+          </div>
+        </li>
+        <li>
+          <div class="progressbar-title">
+            <h3>PHP</h3>
+            <span class="percent" id="angular-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="70">
+            <span class="progressbar" id="progress-angular"></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="tools-knowledge-wrapper">
     </section>
 
     <section class="blog">
@@ -110,5 +152,6 @@
             <a href="#"><i class="fa fa-youtube" title="YouTube"></i></a>
         </div>
     </section>
+    <script type="script.js"></script>
 </body>
 </html>
