@@ -3,6 +3,7 @@
 <head>
     <title>Nobantu Gumbi's Portfolio</title>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8" />
     <meta http-equiv="refresh" content="30">
@@ -10,17 +11,6 @@
 </head>
 
 <body>
-    <header>
-    <ul class="side">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="projects">Projects</a></li>
-        <li><a href="skills">Skills</a></li>
-        <li><a href="blog">Blog</a></li>
-        <li><a href="contact">Contact</a></li>
-    </ul>
-    </header>
-
     <section class="title">
         <div class="avatar">
             <img src="image.png" class="img">
@@ -28,8 +18,7 @@
             <div class="banner">
                 <h1><b>Hi, my name is Nobantu Gumbi</b></h1>
                 <p>and I am a Software Developer</p>
-                <a href="resume.pdf">Resume</a>
-                <a href="http://www.youtube.com/c/thebrandcodes">YouTube Channel</a>
+                <button><a href="resume.pdf">Resume</a></button>
             </div>
     </section>
 
@@ -63,60 +52,6 @@
         <a href="https://github.com/nogumbi/Computer-Science-3A-Project.git">Tutor Booking System</a>
         <img src="https://www.appointy.com/online-tutoring-software-for-scheduling-tutoring-lessons/uploads/2020/10/Student-scheduling-a-tutoring-class.svg">
         <p>Tutor booking system to check if the tutor is available for tutoring or not.</p>
-
-    </section>
-
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul class="skills-bar-container">
-        <li>
-          <div class="progressbar-title">
-            <h3>PYTHON</h3>
-            <span class="percent" id="html-pourcent"></span>
-          </div>
-          <div class="bar-container" data-percent="95">
-            <span class="progressbar" id="progress-html"></span>
-          </div>
-        </li>
-        <li>
-          <div class="progressbar-title">
-            <h3>JAVA</h3>
-            <span class="percent" id="css-pourcent"></span>
-          </div>
-          <div class="bar-container" data-percent="85">
-            <span class="progressbar" id="progress-css"></span>
-          </div>
-        </li>
-        <li>
-          <div class="progressbar-title">
-            <h3>JAVASCRIPT</h3>
-            <span class="percent" id="javascript-pourcent"></span>
-          </div>
-          <div class="bar-container" data-percent="80">
-            <span class="progressbar" id="progress-javascript"></span>
-          </div>
-        </li>
-        <li>
-          <div class="progressbar-title">
-            <h3>C/C++</h3>
-            <span class="percent" id="php-pourcent"></span>
-          </div>
-          <div class="bar-container" data-percent="65">
-            <span class="progressbar" id="progress-php"></span>
-          </div>
-        </li>
-        <li>
-          <div class="progressbar-title">
-            <h3>PHP</h3>
-            <span class="percent" id="angular-pourcent"></span>
-          </div>
-          <div class="bar-container" data-percent="70">
-            <span class="progressbar" id="progress-angular"></span>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div class="tools-knowledge-wrapper">
     </section>
 
     <section class="blog">
@@ -124,17 +59,21 @@
         <video id="background-video" autoplay loop muted poster="vid1.mp4">
             <source src="vid1.mp4" type="video/mp4">
         </video>
-        <h3>Latest Posts</h3>
-            <a href="https://www.youtube.com/watch?v=nKVsXcvzCb4">First Year Experience at WeThinkCode_</a>
+            <a href="https://www.youtube.com/watch?v=nKVsXcvzCb4">
             <img src="pro1.png" alt="First Year Experience at WeThinkCode">
-            <a href="https://www.youtube.com/watch?v=65ToWbdItHk&t=6s">Python Data Types Tutorial</a>
+            </a>
+            <a href="https://www.youtube.com/watch?v=65ToWbdItHk&t=6s">
             <img src="pro2.png" alt="Python Data Types Tutorial">
-            <a href="https://www.youtube.com/watch?v=8dLp4AbNsjU">Python Variables</a>
+            </a>
+            <a href="https://www.youtube.com/watch?v=8dLp4AbNsjU">
             <img src="pro4.png" alt="Python Variables Tutorial">
-            <a href="https://www.youtube.com/watch?v=Dds3rHypD-I&t=1s">How To Become A Software Developer</a>
+            </a>
+            <a href="https://www.youtube.com/watch?v=Dds3rHypD-I&t=1s">
             <img src="pro3.png" alt="How To Become A Software Developer">
-            <a href="https://www.youtube.com/watch?v=3SFeMJe3RjI&t=1s">My First Hackathon</a>
+            </a>
+            <a href="https://www.youtube.com/watch?v=3SFeMJe3RjI&t=1s">
             <img src="pro5.png" alt="My First Hackathon">
+            </a>
     </section>
 
     <section class="contact">
@@ -144,13 +83,15 @@
             <input type="text" id="email" placeholder="Email"><br>
             <input type="text" id="message" placeholder="Message"><br>
         <button type="submit">SUBMIT</button>
+                 <a href="http://www.youtube.com/c/thebrandcodes">
+         <i class='fab fa-youtube'  style='font-size:36px'></i>
+                </a>
+                <a href="https://www.github.com/nogumbi">
+                <i class='fab fa-github'  style='font-size:36px'></i>
+                </a>
+                <a href="https://www.linkedin.com/nobantugumbi"><i class='fab fa-linkedin-in'  style='font-size:36px'></i>
+                </a>
         </form>
-        <div class="space"></div>
-        <div class="social">
-            <a href="#"><i class="fa fa-linkedin-in" title="LinkedIn"></i></a>
-            <a href="#"><i class="fa fa-github" title="GitHub"></i></a>
-            <a href="#"><i class="fa fa-youtube" title="YouTube"></i></a>
-        </div>
     </section>
     <script type="script.js"></script>
 </body>
