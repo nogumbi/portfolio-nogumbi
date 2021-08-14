@@ -31,28 +31,9 @@ header {
     width: 100%;
     padding: 0 15px;
     display: block;
+    background:#b25782;
 }
 
-header ul {
-    position: relative;
-    display: flex;
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
-  }
-  
-  header ul li {
-    position: relative;
-    list-style: none;
-  }
-  
-  header ul li a {
-    position: relative;
-    display:block;
-    margin: 0 15px;
-    color: white;
-    text-decoration: none;
-  }
 
 .avatar {
     min-width: 50%;
@@ -223,3 +204,61 @@ a {
         transition: transform 80ms ease-in;
 }
 
+  .collapsible-bar {
+    position: fixed;
+    left: 0;
+    right: 50px;
+  }
+  .collapsible {
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    border: 3px solid #b25782;
+  }
+  .navbar-nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+  }
+
+  .nav-bar-left {
+    text-align: center;
+    overflow: auto;
+    height: max-content;
+    transition: max-height 0.2s ease-out;
+  }
+
+  @keyframes floatup {
+    from {
+      transform: translateY(14px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .nav-bar-left {
+      width: 100%;
+      border-radius: 0px;
+    }
+    .collapsible-bar {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+    }
+    .collapsible {
+      width: 100%;
+      border: 0px;
+      border-top: 3px solid white;
+      border-radius: 0px;
+    }
+  }
+  
