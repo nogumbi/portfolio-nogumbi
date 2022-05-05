@@ -1,0 +1,51 @@
+body {
+    background: white;
+}
+
+.home {
+    background: #b25782;
+    color: white;
+}
+
+.nav-bar {
+    background: #b25782;
+}
+
+.intro {
+    padding: 120px 50px 0;
+}
+
+.navbar {
+    background-color: #b25782;
+}
+
+.header-img {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+.about-me {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.projects {
+    background-color: #bd4c81;
+    color: white;
+}

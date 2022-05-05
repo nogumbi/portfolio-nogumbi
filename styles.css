@@ -31,34 +31,37 @@ header {
     width: 100%;
     padding: 0 15px;
     display: block;
-    background:#b25782;
+    background: #b25782;
 }
-
 
 .avatar {
     min-width: 50%;
 }
-img {
 
+img {
     max-width: 60%;
     border-radius: 50%;
-    -webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9));
+    -webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.9));
 }
+
 .banner img {
-    width: 30px; 
+    width: 30px;
     height: 30px;
 }
+
 .title {
     background-color: white;
 }
+
 .title {
     position: relative;
     display: flex;
     background: white;
     background-size: cover;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
 }
+
 .side-tabs a {
     margin: 0px 20px 0 20px;
     cursor: pointer;
@@ -69,16 +72,17 @@ img {
 }
 
 button {
-	border-radius: 20px;
-	color: #FFFFFF;
-	font-size: 12px;
-	font-weight: bold;
-	padding: 12px 30px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	transition: transform 80ms ease-in;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
     background-color: #b25782;
 }
+
 a {
     color: white;
 }
@@ -86,7 +90,6 @@ a {
 .about {
     background-color: #c284a1;
     background-size: cover;
-    
 }
 
 .about h2 {
@@ -94,14 +97,17 @@ a {
     text-transform: uppercase;
     text-align: center;
 }
+
 .about p {
     color: white;
     font-size: 16px;
     font-weight: normal;
 }
+
 .projects {
     background-color: white;
 }
+
 .projects h2 {
     color: var(--purple);
     text-transform: uppercase;
@@ -131,8 +137,9 @@ a {
     color: #b25782;
     text-transform: uppercase;
     text-align: center;
-    -moz-background-clip:  url(vid1.mp4);
+    -moz-background-clip: url(vid1.mp4);
 }
+
 .blog #background-video {
     width: 100vw;
     height: 100vh;
@@ -144,32 +151,32 @@ a {
     bottom: 0;
     z-index: -1;
     opacity: 50%;
-  }
+}
 
 .blog img {
     width: 30%;
     height: 30%;
-  }
+}
+
 .contact {
     background-color: var(--pink)
 }
 
 .projects a {
     border-radius: 20px;
-	color: #FFFFFF;
-	font-size: 12px;
-	font-weight: bold;
-	padding: 12px 30px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	transition: transform 80ms ease-in;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
     background-color: #b25782;
     float: right;
 }
 
-.blog a {
-    
-}
+.blog a {}
+
 .contact h2 {
     color: white;
     text-transform: uppercase;
@@ -192,24 +199,25 @@ a {
 }
 
 .contact form button {
-        border-radius: 20px;
-        border: 1px solid #b0d9ec;
-        background-color: #b25782;
-        color: #FFFFFF;
-        font-size: 12px;
-        font-weight: bold;
-        padding: 12px 30px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        transition: transform 80ms ease-in;
+    border-radius: 20px;
+    border: 1px solid #b0d9ec;
+    background-color: #b25782;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
 }
 
-  .collapsible-bar {
+.collapsible-bar {
     position: fixed;
     left: 0;
     right: 50px;
-  }
-  .collapsible {
+}
+
+.collapsible {
     background-color: white;
     color: white;
     cursor: pointer;
@@ -217,48 +225,48 @@ a {
     text-align: left;
     font-size: 18px;
     border: 3px solid #b25782;
-  }
-  .navbar-nav {
+}
+
+.navbar-nav {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: white;
-  }
+}
 
-  .nav-bar-left {
+.nav-bar-left {
     text-align: center;
     overflow: auto;
     height: max-content;
     transition: max-height 0.2s ease-out;
-  }
+}
 
-  @keyframes floatup {
+@keyframes floatup {
     from {
-      transform: translateY(14px);
-      opacity: 0;
+        transform: translateY(14px);
+        opacity: 0;
     }
     to {
-      transform: translateY(0px);
-      opacity: 1;
+        transform: translateY(0px);
+        opacity: 1;
     }
-  }
+}
 
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .nav-bar-left {
-      width: 100%;
-      border-radius: 0px;
+        width: 100%;
+        border-radius: 0px;
     }
     .collapsible-bar {
-      position: fixed;
-      bottom: 0;
-      right: 0;
-      width: 100%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 100%;
     }
     .collapsible {
-      width: 100%;
-      border: 0px;
-      border-top: 3px solid white;
-      border-radius: 0px;
+        width: 100%;
+        border: 0px;
+        border-top: 3px solid white;
+        border-radius: 0px;
     }
-  }
-  
+}
