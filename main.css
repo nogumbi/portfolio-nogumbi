@@ -7,6 +7,11 @@ body {
     color: white;
 }
 
+.contact-me {
+    background: #C1789B;
+    color: white;
+}
+
 .nav-bar {
     background: #b25782;
 }
@@ -17,6 +22,11 @@ body {
 
 .navbar {
     background-color: #b25782;
+    padding: 10px 25px 0;
+}
+
+.navbar-nav {
+    margin-left: auto;
 }
 
 .header-img {
@@ -25,7 +35,7 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 h2 {
@@ -34,18 +44,92 @@ h2 {
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-brand {
     font-family: 'Playfair Display', serif;
 }
 
-.about-me {
-    font-family: 'Montserrat', sans-serif;
+.nav-link {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
 }
 
-.projects {
-    background-color: #bd4c81;
+.navbar-light .navbar-brand {
     color: white;
+}
+
+.about-me {
+    font-family: 'Montserrat', sans-serif;
+    color: #606060;
+}
+
+.bio-text {
+    padding: 30px 40px;
+}
+
+.projects-container {
+    padding: 50px;
+}
+
+.projects-header {
+    padding-top: 50px;
+    font-size: 35px;
+    color: #606060;
+}
+
+.about-text {
+    padding-top: 50px;
+    font-size: 35px;
+    color: #606060;
+}
+
+.youtube-creator {
+    background-color: #C1789B;
+    color: white;
+    padding: 70px;
+}
+
+.yt-buttons {
+    text-align: center;
+}
+
+.yt-text {
+    padding-bottom: 25px;
+    font-size: 35px;
+}
+
+.creator-description {
+    padding-bottom: 25px;
+}
+
+.card-bg-color {
+    background-color: #DFBBCD;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 50px 0 25px;
+}
+
+.social-handles {
+    text-align: center;
+    font-size: 45px;
+    padding: 35px 0 0;
+}
+
+.footer-header {
+    padding: 50px 0 0;
+    font-size: 35px;
 }
