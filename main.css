@@ -1,19 +1,19 @@
 body {
-    background: white;
+    background: #e0e6e9;
 }
 
 .home {
-    background: #b25782;
+    background: #6d4d6e;
     color: white;
 }
 
 .contact-me {
-    background: #C1789B;
+    background: #6d4d6e;
     color: white;
 }
 
 .nav-bar {
-    background: #b25782;
+    background: #6d4d6e;
 }
 
 .intro {
@@ -21,7 +21,7 @@ body {
 }
 
 .navbar {
-    background-color: #b25782;
+    background-color: #6d4d6e;
     padding: 10px 25px 0;
 }
 
@@ -56,6 +56,26 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    display: inline-block;
+    color: #e0e6e9;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 3px solid #6d4d6e;
+    border-radius: 10px;
+}
+
+a:hover {
+    animation: pulsate 1s ease-in-out;
+}
+@keyframes pulsate {
+    0% {
+        box-shadow: 
+        0 0 25px #a3a4be,
+        0 0 25px #6d4d6e;
+    }
+}
+
 .navbar-brand {
     font-family: 'Playfair Display', serif;
 }
@@ -67,12 +87,12 @@ p {
 }
 
 .navbar-light .navbar-brand {
-    color: white;
+    color: #e0e6e9;
 }
 
 .about-me {
     font-family: 'Montserrat', sans-serif;
-    color: #606060;
+    color: #6d4d6e;
 }
 
 .bio-text {
@@ -86,18 +106,18 @@ p {
 .projects-header {
     padding-top: 50px;
     font-size: 35px;
-    color: #606060;
+    color: #6d4d6e;
 }
 
 .about-text {
     padding-top: 50px;
     font-size: 35px;
-    color: #606060;
+    color: #6d4d6e;
 }
 
 .youtube-creator {
-    background-color: #C1789B;
-    color: white;
+    background-color: #6d4d6e;
+    color: #e0e6e9;
     padding: 70px;
 }
 
@@ -115,7 +135,7 @@ p {
 }
 
 .card-bg-color {
-    background-color: #DFBBCD;
+    background-color: #a3a4be;
 }
 
 .footer-text {
